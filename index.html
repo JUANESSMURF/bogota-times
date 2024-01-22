@@ -8,7 +8,11 @@
     rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pixelify+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=UnifrakturMaguntia&display=swap"
     rel="stylesheet">
-    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>The Bogota Times</title>
 </head>
 <body>
@@ -18,7 +22,7 @@
             <button onclick="changeLenguage('en')">English</button>                    
         </div>
         <div class="title-container">
-            <span id="date">Today's date</span>
+            <p id="fechaActual"></p>
             <h1 >The Bogota Times</h1>
             <button onclick="logSubscription('en')">Suscribe for $0.95/week</button>                    
         </div>
@@ -28,6 +32,7 @@
                     <li><a href="#Colombia"></a>Colombia</li>
                     <li><a href="#World"></a>World</li>
                     <li><a href="#Art"></a>Art</li>
+                    <span class="divider"></span>
                     <li><a href="#Lifestyle"></a>Lifestyle</li>
                     <li><a href="#Games"></a>Games</li>
                     <li><a href="#Cooking"></a>Cooking</li>
@@ -158,5 +163,6 @@
             </div>
         </div>      
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
